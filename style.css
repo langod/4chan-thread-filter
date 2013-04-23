@@ -1,0 +1,58 @@
+body {
+    color: #c5c8c6;
+    background: #808a92;
+}
+
+img {
+    height: 300px;
+    max-width: 100%;
+    margin: 2em auto 1em auto;
+    display: block;
+}
+
+input {
+    height: 1em;
+    padding: 0.5em 1em;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+
+input[type="submit"] {
+    height: auto;
+}
+
+pre {
+    white-space: normal;
+}
+
+#boards {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#boards li {
+    float: left;
+    list-style: none;
+    padding: 0 1px;
+    text-align: center;
+}
+
+#boards label {
+    display: block;
+}
+
+#threads {
+    list-style: none;
+    margin: 1% auto;
+}
+
+#threads li {
+    float: left;
+    width: 450px;
+    background: #1D1F21;
+    padding: 1%;
+    margin: 0 0 1% 0;
+}
